@@ -49,9 +49,7 @@
   "createFromPvP": true,
   "createFromVoid": true,
   "createFromCommandDeaths": true,
-  "createInProtectedArea": {
-    "goml:claim_protection": false
-  },
+  "createInProtectedArea": {},
   "dropItemsAfterExpiring": true,
   "allowAttackersToTakeItems": false,
   "shiftClickTakesItems": true,

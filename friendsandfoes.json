@@ -40,6 +40,6 @@
   "enableZombieHorseTrap": true,
   "enableWildfire": true,
   "generateCitadelStructure": true,
-  "enableBeekeeperVillagerProfession": false,
+  "enableBeekeeperVillagerProfession": true,
   "generateBeekeeperAreaStructure": true
 }

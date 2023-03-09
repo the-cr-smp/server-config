@@ -3,7 +3,7 @@
 #Allows anvil repair of items with repair cost 39 or more.
 "AllowTooExpensive Enabled" = true
 #Place a block of amethyst under a note block to play its placement sound.
-"AmethystNoteBlock Enabled" = true
+"AmethystNoteBlock Enabled" = false
 #Storage for maps that automatically updates the displayed map as you explore.
 "Atlases Enabled" = true
 #Refills your hotbar from your inventory.
@@ -18,7 +18,7 @@
 "BeaconsHealMobs Enabled" = true
 #Beekeepers are villagers that trade beekeeping items. Their job site is the beehive.
 #Disabling will leave villagers of the profession in an unemployed state with decrepit data.
-"Beekeepers Enabled" = true
+"Beekeepers Enabled" = false
 #Ender pearl storage. A silverfish will be converted to an endermite upon touching an ender pearl block.
 #Eating a chorus fruit will teleport you to the nearest ender pearl block.
 "BlockOfEnderPearls Enabled" = true
@@ -100,12 +100,12 @@
 "MapTooltip Enabled" = true
 #Mooblooms are cow-like mobs that come in a variety of flower types.
 #They spawn flowers where they walk and can be milked for suspicious stew.
-"Mooblooms Enabled" = false
+"Mooblooms Enabled" = true
 #Crying obsidian can be used in the construction of nether portal frames.
 "MorePortalFrames Enabled" = true
 #Disables the 'Chat messages can't be verified' nag when the server does not enforce secure profile.
 #This is a controversial module and so is disabled by default.
-"NoChatVerifiedNag Enabled" = true
+"NoChatVerifiedNag Enabled" = false
 #Removes trampling of farmland and crops.
 "NoCropTrampling Enabled" = true
 #Removes the trade discount applied when a villager is cured from zombification.
@@ -114,7 +114,7 @@
 "NoCuredVillagerDiscount Enabled" = false
 #When any action would cause a villager to become a nitwit, it becomes an unemployed villager instead.
 #This is an opinionated feature that removes a gameplay element and so is disabled by default.
-"NoNitwits Enabled" = true
+"NoNitwits Enabled" = false
 #Tamed animals do not take direct damage from players.
 "NoPetDamage Enabled" = true
 #Removes the potion enchantment glint so you can see what the potion color is.
@@ -150,7 +150,7 @@
 "RepairTridentsFromShards Enabled" = true
 #The repsawn anchor can be used in the End.
 #This is an opinionated feature that changes core gameplay and so is disabled by default.
-"RespawnAnchorInTheEnd Enabled" = true
+"RespawnAnchorInTheEnd Enabled" = false
 #An item's repair cost is shown in their tooltip when looking at the anvil screen.
 "ShowRepairCost Enabled" = true
 #Drag and drop items into a shulkerbox from within your inventory.
@@ -176,9 +176,9 @@
 #The player's inventory items will be preserved in the Totem of Preserving upon death.
 #By default, a new totem will always be spawned to preserve items upon dying ('Grave mode').
 #If Grave mode is not enabled, you must be holding a totem in order for it to preserve your items.
-"TotemOfPreserving Enabled" = false
+"TotemOfPreserving Enabled" = true
 #A totem will work from anywhere in the player's inventory as well as held in the main or offhand.
-"TotemWorksFromInventory Enabled" = false
+"TotemWorksFromInventory Enabled" = true
 #Barrels available in all types of vanilla wood.
 "VariantBarrels Enabled" = false
 #Variant bars crafted from vanilla metal ingots.
@@ -198,7 +198,7 @@
 #Villagers are attracted when the player holds a block of emeralds.
 "VillagersFollowEmeraldBlocks Enabled" = true
 #Iron rusts when in contact with water.
-"WeatheringIron Enabled" = false
+"WeatheringIron Enabled" = true
 #A witch has a chance to drop a Potion of Luck when killed by a player.
 "WitchesDropLuck Enabled" = true
 #A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
@@ -280,7 +280,7 @@
 	#If true, adds a recipe for turning snow blocks back into snowballs.
 	"Snowballs from snow blocks" = true
 	#If true, adds a recipe for turning quartz blocks back into quartz.
-	"Quartz from quartz blocks" = false
+	"Quartz from quartz blocks" = true
 	#If true, adds a recipe for turning clay blocks back into clay balls.
 	"Clay balls from clay blocks" = true
 	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
@@ -296,9 +296,9 @@
 	#If true, librarians will buy any enchanted book in return for emeralds.
 	"Enchanted books" = true
 	#If true, armorers, weaponsmiths and toolsmiths will buy chipped or damaged anvils along with iron ingots in return for repaired anvils.
-	"Repaired anvils" = false
+	"Repaired anvils" = true
 	#If true, leatherworkers will sell leather in return for rotten flesh.
-	"Leather for rotten flesh" = false
+	"Leather for rotten flesh" = true
 	#If true, butchers will sell beef in return for rotten flesh.
 	"Beef for rotten flesh" = true
 	#If true, leatherworkers will sell bundles in return for emeralds.
@@ -394,7 +394,7 @@
 [TotemOfPreserving]
 	#If true, a new totem will be spawned to preserve items upon dying.
 	#Players do NOT need to be holding a Totem of Preserving.
-	"Grave mode" = false
+	"Grave mode" = true
 	#If true, only the owner of the totem may pick it up.
 	"Owner only" = false
 	#Mobs that have a chance to drop a totem of preserving.
