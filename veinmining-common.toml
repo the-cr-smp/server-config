@@ -8,7 +8,7 @@
 	#Whether or not to consider this enchantment as a treasure
 	isTreasure = true
 	#List of enchantments that cannot be applied together with this enchantment
-	incompatibleEnchantments = []
+	incompatibleEnchantments = ["silk_touch", "fortune"]
 	#Whether or not this enchantment can be offered by villagers for trade
 	isVillagerTrade = false
 	#Whether or not this enchantment can generate in loot
@@ -25,5 +25,5 @@
 	minEnchantabilityPerLevel = 10
 	#The rarity of the enchantment
 	#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-	rarity = "RARE"
+	rarity = "VERY_RARE"
 
