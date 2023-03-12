@@ -1,6 +1,6 @@
 # server-config
 
-A repo containing Fabric mod packs for The Coding Realm Minecraft Server
+A repo containing server configs for The Coding Realm Minecraft Server
 
 ## Additional Info:
 
